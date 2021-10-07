@@ -1,0 +1,41 @@
+retunlerin 1 olduğu dataları incele
+
+yorumları incele (iade, geri gönderme keywordleri ile) neden iade edildiğine bak 
+
+her kategorinin price ortalamasını al, ucuz, orta pahalı olarak yeni feature
+
+yorumlarda bedenle ilgili neler söylenmiş? 'tam beden', 'bedeninizi' ? 
+
+sorularda bedenle ilgili neler sorulmuş? kaç soru gelmiş? beden?
+
+reviewler - yorumları birleştir countvectorizer and tfidf
+
+
+category_name'i encoding? one-hot
+
+
+ship cost, discout cost vb. yerine ratio (ship/total) vb. kullan
+
+encodings:
+    
+    Frequency Encoding
+
+    Replace the values with its frequency
+    But be careful, some values may have same frequency
+    data[‘country’].value_counts()
+
+    Target Encoding (Mean encoding)
+
+    Each of the categories is the variable is replaced with the mean target value for that category
+    for each catergory in a column: sum of target / count of target 
+
+yorumları supplier ya da product olarak ayrı ayrı birleştir
+    satıcı, tedarikçi gibi kelimelerden satıcı yorumları bulunabilir mi?
+
+promotion_name, product_name incele, preprocess? vectorizer?
+
+# runs
+1. one-hot encoding, freq encoding, target encoding
+2. order hour different intervals - hour_interval 4 category or 48 category
+
+holiday dataset
