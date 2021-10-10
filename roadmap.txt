@@ -16,6 +16,8 @@ category_name'i encoding? one-hot
 
 ship cost, discout cost vb. yerine ratio (ship/total) vb. kullan
 
+RNN??
+
 encodings:
     
     Frequency Encoding
